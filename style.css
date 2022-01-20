@@ -26,9 +26,6 @@ main {
 header {
     text-align: center;
     margin: auto 2em;
-}
-
-header h1 {
     text-transform: uppercase;
 }
 
