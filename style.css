@@ -17,6 +17,21 @@ h2 {
     padding-bottom: 1em;
 }
 
+a {
+    font-weight: 700;
+    text-decoration: none;
+    color: #2020a0;
+    opacity: 0.8;
+    transition: opacity 400ms ease-out;
+}
+
+a:hover,
+a:focus-visible {
+    text-decoration: underline;
+    opacity: 1;
+    transition: opacity 100ms ease-out;
+}
+
 main {
     display: grid;
     grid-template-columns: 40% 60%;
@@ -38,7 +53,7 @@ i {
 }
 
 p {
-    margin: 0.2em auto;
+    margin: 0.2em auto 1em;
 }
 
 hr {
