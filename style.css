@@ -1,6 +1,9 @@
+html {
+    font-size: clamp(1rem, 0.5rem + 1vw, 3rem);
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 12px;
     max-width: 960px;
     margin: auto;
 }
