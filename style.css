@@ -37,9 +37,10 @@ a:focus-visible {
 
 main {
     display: grid;
-    grid-template-columns: 40% 60%;
     margin-top: 3em;
 }
+
+@media (min-width: 768px) {}
 
 header {
     text-align: center;
@@ -72,9 +73,21 @@ h2 {
 }
 
 #mainLeft {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     border-right: 1px solid lightgray;
+    align-items: start;
 }
 
 li {
     margin-bottom: 0.5em;
+}
+
+@media (min-width: 768px) {
+    main {
+        grid-template-columns: 40% 60%;
+    }
+    #mainLeft {
+        grid-template-columns: 1fr;
+    }
 }
