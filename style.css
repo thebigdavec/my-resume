@@ -71,3 +71,7 @@ h2 {
 #mainLeft {
     border-right: 1px solid lightgray;
 }
+
+li {
+    margin-bottom: 0.5em;
+}
